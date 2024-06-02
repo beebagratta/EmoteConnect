@@ -1,0 +1,95 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+}
+header {
+  background-color: #0077b6;
+  color: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 50px;
+}
+.headercontainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.logocont {
+  width: 4%;
+}
+.logo {
+  width: 100%;
+}
+.signup {
+  background-color: #ecab08;
+  color: #fff;
+  padding: 10px 30px;
+  font-size: 19px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  right: 10px;
+}
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+.navcont a:hover {
+  color: #ffb703;
+}
+button:hover {
+  background-color: #ff6347;
+}
+.about-section {
+  background-color: #f0f0f0;
+  padding: 80px 0;
+  text-align: center;
+}
+.about-section .maincontainer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.about-section h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+.about-section p {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.about-section ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+.about-section ul li {
+  margin-bottom: 10px;
+}
+footer {
+  background-color: #0077b6;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+  margin-top: 146px;
+}
+footer p {
+  font-size: 16px;
+}

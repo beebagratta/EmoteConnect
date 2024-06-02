@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;;
+}
+
+
+.maincontainer {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+.search-bar {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  height: 40px;
+  font-size: 20px;
+}
+.search-bar button {
+  padding: 10px 20px;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 60px;
+}
+button:hover {
+  background-color: #ff6347;
+}
+.results {
+  background-color: #fff;
+  border-radius: 8px;
+}
+.result-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.resultcont {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #c0392b;
+  margin-right: 10px;
+}
+.details {
+  flex: 1;
+}
+.name {
+  font-weight: bold;
+}
+.problem {
+  color: #888;
+}
+.userprofilecont {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  padding: 10px 0;
+}
+.userprofile {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background: #000;
+}
+footer {
+  background-color: #0077b6;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
+footer p {
+  font-size: 16px;
+}
+@media screen and (max-width: 884px) {
+  .search-bar{
+    display: flex;
+    flex-direction: column;
+  }
+  .search-bar input{
+    font-size: 10px;
+  }
+}
